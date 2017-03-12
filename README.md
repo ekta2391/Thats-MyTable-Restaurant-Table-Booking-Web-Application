@@ -17,10 +17,18 @@ This application is built on the Spring MVC architecture where we have our :
 
 Setup
 -----
-The Spring application can be run on any server of your choice. In this application Spring Tool Suite has been set up to leverage the Tomcat Server that comes with it. 
+The Spring application can be run on any server of your choice. In this application Spring Tool Suite has been set up to leverage the Tomcat Server. 
 
 1. <b>pom.xml:</b>All the  dependencies and version information for the project are added in this xml file.
 2. src/main/java/<b>hibernate.cfg.xml</b>: Your connection information for your database connection. Please enter your local database connection information i.e. database name, username and password for your database connection in this file for respective properties.
+
+
+Running the Project
+--------------------
+Typically this project has been built and run in Spring Tool Suite.
+* 1. Start the Tomcat Server
+* 2. Run the project on your local server of choice 
+* 3. Type in: http://localhost:8080/ThatsMyTable/ in your browser (enter the port number your server is running on) to open the homepage.
 
 
 
