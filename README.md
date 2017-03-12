@@ -12,8 +12,16 @@ Spring MVC Architecture
 -------------------------------------------------------------------
 This application is built on the Spring MVC architecture where we have our :
 * Model(M)- Stores data as per the instruction given by the controller(Eg: POJO for User.java, Restaurant.java, etc)
-* View(V) rendered as per the flow of the application(Eg: home.jsp, login.jsp, etc)
+* View(V)- rendered as per the flow of the application(Eg: home.jsp, login.jsp, etc)
 * Controller(C)- Has the logic that takes in the input parameters and renders the respective view(Eg: LoginController.java,                                  RestaurantController.java, etc)
+
+Setup
+-----
+The Spring application can be run on any server of your choice. In this application Spring Tool Suite has been set up to leverage the Tomcat Server that comes with it. 
+
+1. <b>pom.xml:</b>All the  dependencies and version information for the project are added in this xml file.
+2. src/main/java/<b>hibernate.cfg.xml</b>: Your connection information for your database connection. Please enter your local database connection information i.e. database name, username and password for your database connection in this file for respective properties.
+
 
 
 
