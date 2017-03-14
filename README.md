@@ -31,5 +31,11 @@ Typically this project has been built and run in Spring Tool Suite.
 * 3. Type in: http://localhost:8080/ThatsMyTable/ in your browser (enter the port number your server is running on) to open the homepage.
 
 
+Application Flow
+------
+Restaurant Admin: You can sign up or register a restaurant account to the system.The restaurant is now visible to any user.
+User: You can create an account and then sign in to view restaurants that are available as per each city. The user can see the availability of tables available at a particular restaurant and make a booking.
+Update table booking status: The restaurant admin can update the table availability in his system for the user to access.
+
 
 
